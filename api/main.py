@@ -8,19 +8,29 @@ app = FastAPI()
 mock_companies: List[Company] = [
     {"id": "AAPL", "stock_1d": 2.5, "stock_1w": 5.3, "stock_1m": 12.7},
     {"id": "GOOGL", "stock_1d": -1.2, "stock_1w": 3.8, "stock_1m": 8.4},
-    {"id": "MSFT", "stock_1d": 1.8, "stock_1w": 4.2, "stock_1m": 10.1}
+    {"id": "MSFT", "stock_1d": 1.8, "stock_1w": 4.2, "stock_1m": 10.1},
+    {"id": "AMZN", "stock_1d": 0.5, "stock_1w": 2.1, "stock_1m": 7.5}
 ]
 
 mock_keywords: List[Keyword] = [
     {"id": "tech", "name": "Technology"},
     {"id": "ai", "name": "Artificial Intelligence"},
-    {"id": "cloud", "name": "Cloud Computing"}
+    {"id": "cloud", "name": "Cloud Computing"},
+    {"id": "ecommerce", "name": "E-commerce"}
 ]
 
 mock_edges: List[Edge] = [
-    {"company": "AAPL", "keyword": "tech", "weight": 0.8},
+    {"company": "AAPL", "keyword": "tech", "weight": 0.9},
+    {"company": "AAPL", "keyword": "ai", "weight": 0.6},
+    {"company": "GOOGL", "keyword": "tech", "weight": 0.95},
     {"company": "GOOGL", "keyword": "ai", "weight": 0.9},
-    {"company": "MSFT", "keyword": "cloud", "weight": 0.85}
+    {"company": "GOOGL", "keyword": "cloud", "weight": 0.8},
+    {"company": "MSFT", "keyword": "tech", "weight": 0.92},
+    {"company": "MSFT", "keyword": "ai", "weight": 0.85},
+    {"company": "MSFT", "keyword": "cloud", "weight": 0.88},
+    {"company": "AMZN", "keyword": "tech", "weight": 0.85},
+    {"company": "AMZN", "keyword": "cloud", "weight": 0.9},
+    {"company": "AMZN", "keyword": "ecommerce", "weight": 0.98}
 ]
 
 @app.get("/")
