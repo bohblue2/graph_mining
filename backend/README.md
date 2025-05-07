@@ -22,5 +22,7 @@ alembic init tg_crawler/alembic
 ## How to run
 
 ```bash
+cd backend   
+source .venv/bin/activate
 uvicorn tg_backend.tg_backend.main:app --reload
 ```
