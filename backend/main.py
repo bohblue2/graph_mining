@@ -14,58 +14,12 @@ app.add_middleware(
     allow_headers=["*"],  # 모든 헤더 허용
 )
 
-# Mock data
-mock_companies: List[Company] = [
-    {"id": "AAPL", "stock_1d": 2.5, "stock_1w": 5.3, "stock_1m": 12.7},
-    {"id": "GOOGL", "stock_1d": -1.2, "stock_1w": 3.8, "stock_1m": 8.4},
-    {"id": "MSFT", "stock_1d": 1.8, "stock_1w": 4.2, "stock_1m": 10.1},
-    {"id": "AMZN", "stock_1d": 0.5, "stock_1w": 2.1, "stock_1m": 7.5}
-]
 
-mock_keywords: List[Keyword] = [
-    {"id": "tech", "name": "Technology"},
-    {"id": "ai", "name": "Artificial Intelligence"},
-    {"id": "cloud", "name": "Cloud Computing"},
-    {"id": "ecommerce", "name": "E-commerce"}
-]
-
-mock_edges: List[Edge] = [
-    {"company": "AAPL", "keyword": "tech", "weight": 0.9},
-    {"company": "AAPL", "keyword": "ai", "weight": 0.6},
-    {"company": "GOOGL", "keyword": "tech", "weight": 0.95},
-    {"company": "GOOGL", "keyword": "ai", "weight": 0.9},
-    {"company": "GOOGL", "keyword": "cloud", "weight": 0.8},
-    {"company": "MSFT", "keyword": "tech", "weight": 0.92},
-    {"company": "MSFT", "keyword": "ai", "weight": 0.85},
-    {"company": "MSFT", "keyword": "cloud", "weight": 0.88},
-    {"company": "AMZN", "keyword": "tech", "weight": 0.85},
-    {"company": "AMZN", "keyword": "cloud", "weight": 0.9},
-    {"company": "AMZN", "keyword": "ecommerce", "weight": 0.98}
-]
 
 @app.get("/")
 async def root():
     return {"message": "Graph Mining API"}
 
-@app.get("/node", response_model=Node)
-async def get_node():
-    return {
-        "company": mock_companies,
-        "keyword": mock_keywords,
-        "edge": mock_edges
-    }
-
-@app.get("/companies", response_model=List[Company])
-async def get_companies():
-    return mock_companies
-
-@app.get("/keywords", response_model=List[Keyword])
-async def get_keywords():
-    return mock_keywords
-
-@app.get("/edges", response_model=List[Edge])
-async def get_edges():
-    return mock_edges 
 
 @app.get("/test")
 async def test():
@@ -85,6 +39,50 @@ async def test():
                 "currency": "USD",
                 "market": "NASDAQ",
                 "source": "Yahoo Finance",
+            },
+            {
+                "type": "company",
+                "ISIN": "US0378331005",
+                "name": "Apple",
+                "priceFrom": 170.34,
+                "priceTo": 172.80,
+                "priceChange": 1.0144417048,
+                "currency": "USD",
+                "market": "NASDAQ",
+                "source": "Yahoo Finance",
+            },
+            {
+                "type": "company",
+                "ISIN": "US0231351067",
+                "name": "Amazon",
+                "priceFrom": 150.10,
+                "priceTo": 153.20,
+                "priceChange": 1.0206528981,
+                "currency": "USD",
+                "market": "NASDAQ",
+                "source": "Yahoo Finance",
+            },
+            {
+                "type": "company",
+                "ISIN": "US5949181045",
+                "name": "Microsoft",
+                "priceFrom": 400.50,
+                "priceTo": 405.70,
+                "priceChange": 1.0129837703,
+                "currency": "USD",
+                "market": "NASDAQ",
+                "source": "Yahoo Finance",
+            },
+            {
+                "type": "company",
+                "ISIN": "US88160R1014",
+                "name": "Tesla",
+                "priceFrom": 250.00,
+                "priceTo": 255.00,
+                "priceChange": 1.02,
+                "currency": "USD",
+                "market": "NASDAQ",
+                "source": "Yahoo Finance",
             }
         ],
         "keyword_nodes":[
@@ -92,13 +90,93 @@ async def test():
                 "type": "keyword",
                 "keyword": "AI 칩",
                 "priceChange": 1.0176149375,
+            },
+            {
+                "type": "keyword",
+                "keyword": "iPhone",
+                "priceChange": 1.0144417048,
+            },
+            {
+                "type": "keyword",
+                "keyword": "Mac",
+                "priceChange": 1.0100000000,
+            },
+            {
+                "type": "keyword",
+                "keyword": "AWS",
+                "priceChange": 1.0206528981,
+            },
+            {
+                "type": "keyword",
+                "keyword": "E-commerce",
+                "priceChange": 1.0150000000,
+            },
+            {
+                "type": "keyword",
+                "keyword": "Azure",
+                "priceChange": 1.0129837703,
+            },
+            {
+                "type": "keyword",
+                "keyword": "Windows",
+                "priceChange": 1.0050000000,
+            },
+            {
+                "type": "keyword",
+                "keyword": "EV",
+                "priceChange": 1.02,
+            },
+            {
+                "type": "keyword",
+                "keyword": "Autopilot",
+                "priceChange": 1.03,
             }
         ],
         "edges":[
             {
                 "source": "NVIDIA",
                 "target": "AI 칩",
-                "weight": 0.5,
+                "weight": 0.9,
+            },
+            {
+                "source": "Apple",
+                "target": "iPhone",
+                "weight": 0.85,
+            },
+            {
+                "source": "Apple",
+                "target": "Mac",
+                "weight": 0.75,
+            },
+            {
+                "source": "Amazon",
+                "target": "AWS",
+                "weight": 0.92,
+            },
+            {
+                "source": "Amazon",
+                "target": "E-commerce",
+                "weight": 0.88,
+            },
+            {
+                "source": "Microsoft",
+                "target": "Azure",
+                "weight": 0.90,
+            },
+            {
+                "source": "Microsoft",
+                "target": "Windows",
+                "weight": 0.70,
+            },
+            {
+                "source": "Tesla",
+                "target": "EV",
+                "weight": 0.95,
+            },
+            {
+                "source": "Tesla",
+                "target": "Autopilot",
+                "weight": 0.80,
             }
         ]
     }
