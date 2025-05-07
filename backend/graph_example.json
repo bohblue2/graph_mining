@@ -1,0 +1,1367 @@
+{
+    "query_info": {
+      "from": "2024-01-01",
+      "to": "2024-01-02"
+    },
+    "company_nodes": [
+      {
+        "type": "company",
+        "ISIN": "US8572235824",
+        "name": "Company0",
+        "priceFrom": 338.66,
+        "priceTo": 359.97,
+        "priceChange": 1.062924467,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1575639937",
+        "name": "Company1",
+        "priceFrom": 54.6,
+        "priceTo": 52.76,
+        "priceChange": 0.9663003663,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2768910780",
+        "name": "Company2",
+        "priceFrom": 410.73,
+        "priceTo": 430.23,
+        "priceChange": 1.0474764444,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1461405804",
+        "name": "Company3",
+        "priceFrom": 328.51,
+        "priceTo": 352.32,
+        "priceChange": 1.0724787678,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2641910855",
+        "name": "Company4",
+        "priceFrom": 364.85,
+        "priceTo": 370.15,
+        "priceChange": 1.0145265177,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US9443120136",
+        "name": "Company5",
+        "priceFrom": 488.34,
+        "priceTo": 531.02,
+        "priceChange": 1.0873981243,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1816776183",
+        "name": "Company6",
+        "priceFrom": 470.14,
+        "priceTo": 500.42,
+        "priceChange": 1.064406347,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2608882163",
+        "name": "Company7",
+        "priceFrom": 171.18,
+        "priceTo": 182.19,
+        "priceChange": 1.0643182615,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2827500887",
+        "name": "Company8",
+        "priceFrom": 237.16,
+        "priceTo": 259.84,
+        "priceChange": 1.0956316411,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1526433067",
+        "name": "Company9",
+        "priceFrom": 392.68,
+        "priceTo": 409.88,
+        "priceChange": 1.0438015687,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US5624511277",
+        "name": "Company10",
+        "priceFrom": 235.93,
+        "priceTo": 230.49,
+        "priceChange": 0.9769423134,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2343505155",
+        "name": "Company11",
+        "priceFrom": 250.32,
+        "priceTo": 248.07,
+        "priceChange": 0.9910115053,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1243016211",
+        "name": "Company12",
+        "priceFrom": 250.06,
+        "priceTo": 255.04,
+        "priceChange": 1.0199152203,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US7699594287",
+        "name": "Company13",
+        "priceFrom": 368.26,
+        "priceTo": 353.98,
+        "priceChange": 0.9612230489,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1423228864",
+        "name": "Company14",
+        "priceFrom": 277.38,
+        "priceTo": 274.75,
+        "priceChange": 0.9905184224,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US5461667709",
+        "name": "Company15",
+        "priceFrom": 280.43,
+        "priceTo": 269.69,
+        "priceChange": 0.9617016724,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US3224077316",
+        "name": "Company16",
+        "priceFrom": 176.44,
+        "priceTo": 189.96,
+        "priceChange": 1.0766266153,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1524357311",
+        "name": "Company17",
+        "priceFrom": 154.11,
+        "priceTo": 147.5,
+        "priceChange": 0.9571085588,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2802980018",
+        "name": "Company18",
+        "priceFrom": 424.75,
+        "priceTo": 435.65,
+        "priceChange": 1.0256621542,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1404170127",
+        "name": "Company19",
+        "priceFrom": 273.17,
+        "priceTo": 277.57,
+        "priceChange": 1.016107186,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1922946658",
+        "name": "Company20",
+        "priceFrom": 181.09,
+        "priceTo": 179.32,
+        "priceChange": 0.9902258545,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US5521475659",
+        "name": "Company21",
+        "priceFrom": 65.98,
+        "priceTo": 63.05,
+        "priceChange": 0.9555926038,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1719718932",
+        "name": "Company22",
+        "priceFrom": 213.39,
+        "priceTo": 209.97,
+        "priceChange": 0.9839730072,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2611028847",
+        "name": "Company23",
+        "priceFrom": 285.53,
+        "priceTo": 308.68,
+        "priceChange": 1.0810772949,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1531929836",
+        "name": "Company24",
+        "priceFrom": 176.85,
+        "priceTo": 188.02,
+        "priceChange": 1.0631608708,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1591803266",
+        "name": "Company25",
+        "priceFrom": 200.89,
+        "priceTo": 205.89,
+        "priceChange": 1.0248892429,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2608596544",
+        "name": "Company26",
+        "priceFrom": 375.76,
+        "priceTo": 379.35,
+        "priceChange": 1.0095539706,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US4328921673",
+        "name": "Company27",
+        "priceFrom": 409.13,
+        "priceTo": 403.68,
+        "priceChange": 0.9866790507,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2475593356",
+        "name": "Company28",
+        "priceFrom": 364.67,
+        "priceTo": 383.3,
+        "priceChange": 1.0510872844,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2324440542",
+        "name": "Company29",
+        "priceFrom": 219.23,
+        "priceTo": 213.53,
+        "priceChange": 0.9739999088,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1374329377",
+        "name": "Company30",
+        "priceFrom": 482.44,
+        "priceTo": 524.99,
+        "priceChange": 1.0881974961,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2703067414",
+        "name": "Company31",
+        "priceFrom": 353.52,
+        "priceTo": 355.0,
+        "priceChange": 1.0041864675,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1734094777",
+        "name": "Company32",
+        "priceFrom": 13.47,
+        "priceTo": 14.61,
+        "priceChange": 1.0846325167,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US3175722882",
+        "name": "Company33",
+        "priceFrom": 148.4,
+        "priceTo": 143.6,
+        "priceChange": 0.9676549865,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1131477000",
+        "name": "Company34",
+        "priceFrom": 294.83,
+        "priceTo": 284.36,
+        "priceChange": 0.96448801,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1480236215",
+        "name": "Company35",
+        "priceFrom": 266.22,
+        "priceTo": 272.11,
+        "priceChange": 1.0221245586,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2526083584",
+        "name": "Company36",
+        "priceFrom": 156.69,
+        "priceTo": 151.49,
+        "priceChange": 0.9668134533,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2515186239",
+        "name": "Company37",
+        "priceFrom": 299.01,
+        "priceTo": 322.59,
+        "priceChange": 1.0788602388,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1941497853",
+        "name": "Company38",
+        "priceFrom": 496.76,
+        "priceTo": 501.19,
+        "priceChange": 1.0089177873,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1307467299",
+        "name": "Company39",
+        "priceFrom": 428.09,
+        "priceTo": 408.35,
+        "priceChange": 0.9538882011,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2734636580",
+        "name": "Company40",
+        "priceFrom": 58.62,
+        "priceTo": 58.25,
+        "priceChange": 0.993688161,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US9973501601",
+        "name": "Company41",
+        "priceFrom": 335.76,
+        "priceTo": 351.29,
+        "priceChange": 1.0462532761,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1808261608",
+        "name": "Company42",
+        "priceFrom": 304.02,
+        "priceTo": 322.75,
+        "priceChange": 1.061607789,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US6692432355",
+        "name": "Company43",
+        "priceFrom": 287.95,
+        "priceTo": 282.5,
+        "priceChange": 0.981073103,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2068305118",
+        "name": "Company44",
+        "priceFrom": 234.69,
+        "priceTo": 230.91,
+        "priceChange": 0.9838936469,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US5427705749",
+        "name": "Company45",
+        "priceFrom": 347.73,
+        "priceTo": 373.74,
+        "priceChange": 1.0747994133,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2711970356",
+        "name": "Company46",
+        "priceFrom": 243.15,
+        "priceTo": 231.05,
+        "priceChange": 0.9502364795,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US2071424835",
+        "name": "Company47",
+        "priceFrom": 227.35,
+        "priceTo": 248.23,
+        "priceChange": 1.0918407741,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US3169918743",
+        "name": "Company48",
+        "priceFrom": 232.48,
+        "priceTo": 242.85,
+        "priceChange": 1.0446059876,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US4521341466",
+        "name": "Company49",
+        "priceFrom": 226.91,
+        "priceTo": 218.19,
+        "priceChange": 0.9615706668,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US8126747261",
+        "name": "Company50",
+        "priceFrom": 468.04,
+        "priceTo": 457.79,
+        "priceChange": 0.9781001624,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1053198852",
+        "name": "Company51",
+        "priceFrom": 153.86,
+        "priceTo": 154.62,
+        "priceChange": 1.0049395554,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US1982802101",
+        "name": "Company52",
+        "priceFrom": 483.32,
+        "priceTo": 499.42,
+        "priceChange": 1.0333112638,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US5341770471",
+        "name": "Company53",
+        "priceFrom": 168.73,
+        "priceTo": 174.06,
+        "priceChange": 1.0315889291,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      },
+      {
+        "type": "company",
+        "ISIN": "US3099441611",
+        "name": "Company54",
+        "priceFrom": 337.24,
+        "priceTo": 367.96,
+        "priceChange": 1.0910923971,
+        "currency": "USD",
+        "market": "NASDAQ",
+        "source": "Yahoo Finance"
+      }
+    ],
+    "keyword_nodes": [
+      {
+        "type": "keyword",
+        "keyword": "Keyword0",
+        "priceChange": 1.0041796857
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword1",
+        "priceChange": 0.9792607792
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword2",
+        "priceChange": 1.0325207975
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword3",
+        "priceChange": 1.0938960173
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword4",
+        "priceChange": 1.0978990844
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword5",
+        "priceChange": 1.0416593901
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword6",
+        "priceChange": 1.011116634
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword7",
+        "priceChange": 1.0057312757
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword8",
+        "priceChange": 1.0741526807
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword9",
+        "priceChange": 0.9879877116
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword10",
+        "priceChange": 1.0296352488
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword11",
+        "priceChange": 0.9995737035
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword12",
+        "priceChange": 1.069135372
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword13",
+        "priceChange": 0.9725405385
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword14",
+        "priceChange": 1.0462184047
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword15",
+        "priceChange": 1.0485942224
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword16",
+        "priceChange": 1.0255488397
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword17",
+        "priceChange": 0.9906386733
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword18",
+        "priceChange": 1.011587271
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword19",
+        "priceChange": 1.0703088113
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword20",
+        "priceChange": 1.0776209497
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword21",
+        "priceChange": 1.0853856295
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword22",
+        "priceChange": 1.0636601612
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword23",
+        "priceChange": 1.0158723933
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword24",
+        "priceChange": 1.0989409623
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword25",
+        "priceChange": 1.0902853913
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword26",
+        "priceChange": 0.9769172754
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword27",
+        "priceChange": 1.01523024
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword28",
+        "priceChange": 1.0601971188
+      },
+      {
+        "type": "keyword",
+        "keyword": "Keyword29",
+        "priceChange": 1.0006433946
+      }
+    ],
+    "edges": [
+      {
+        "source": "Company52",
+        "target": "Keyword23",
+        "weight": 0.26
+      },
+      {
+        "source": "Company32",
+        "target": "Keyword19",
+        "weight": -0.29
+      },
+      {
+        "source": "Company23",
+        "target": "Keyword16",
+        "weight": -0.32
+      },
+      {
+        "source": "Company30",
+        "target": "Keyword8",
+        "weight": -0.3
+      },
+      {
+        "source": "Company33",
+        "target": "Keyword28",
+        "weight": 0.9
+      },
+      {
+        "source": "Company35",
+        "target": "Keyword12",
+        "weight": 0.89
+      },
+      {
+        "source": "Company13",
+        "target": "Keyword8",
+        "weight": -0.45
+      },
+      {
+        "source": "Company54",
+        "target": "Keyword11",
+        "weight": 0.99
+      },
+      {
+        "source": "Company48",
+        "target": "Keyword25",
+        "weight": 0.49
+      },
+      {
+        "source": "Company33",
+        "target": "Keyword18",
+        "weight": -0.72
+      },
+      {
+        "source": "Company16",
+        "target": "Keyword4",
+        "weight": 0.07
+      },
+      {
+        "source": "Company40",
+        "target": "Keyword27",
+        "weight": -0.12
+      },
+      {
+        "source": "Company27",
+        "target": "Keyword25",
+        "weight": 0.6
+      },
+      {
+        "source": "Company13",
+        "target": "Keyword17",
+        "weight": 0.09
+      },
+      {
+        "source": "Company39",
+        "target": "Keyword18",
+        "weight": 0.24
+      },
+      {
+        "source": "Company39",
+        "target": "Keyword25",
+        "weight": 0.35
+      },
+      {
+        "source": "Company18",
+        "target": "Keyword28",
+        "weight": -0.51
+      },
+      {
+        "source": "Company12",
+        "target": "Keyword29",
+        "weight": -0.35
+      },
+      {
+        "source": "Company42",
+        "target": "Keyword18",
+        "weight": -0.74
+      },
+      {
+        "source": "Company48",
+        "target": "Keyword13",
+        "weight": -0.07
+      },
+      {
+        "source": "Company6",
+        "target": "Keyword27",
+        "weight": -0.23
+      },
+      {
+        "source": "Company6",
+        "target": "Keyword27",
+        "weight": -0.64
+      },
+      {
+        "source": "Company48",
+        "target": "Keyword17",
+        "weight": 0.72
+      },
+      {
+        "source": "Company4",
+        "target": "Keyword11",
+        "weight": 0.61
+      },
+      {
+        "source": "Company30",
+        "target": "Keyword23",
+        "weight": -0.51
+      },
+      {
+        "source": "Company24",
+        "target": "Keyword12",
+        "weight": -0.51
+      },
+      {
+        "source": "Company42",
+        "target": "Keyword17",
+        "weight": 0.1
+      },
+      {
+        "source": "Company26",
+        "target": "Keyword13",
+        "weight": -0.31
+      },
+      {
+        "source": "Company12",
+        "target": "Keyword8",
+        "weight": -0.26
+      },
+      {
+        "source": "Company38",
+        "target": "Keyword7",
+        "weight": 0.6
+      },
+      {
+        "source": "Company30",
+        "target": "Keyword17",
+        "weight": 0.18
+      },
+      {
+        "source": "Company34",
+        "target": "Keyword2",
+        "weight": -0.91
+      },
+      {
+        "source": "Company3",
+        "target": "Keyword27",
+        "weight": 0.54
+      },
+      {
+        "source": "Company14",
+        "target": "Keyword15",
+        "weight": 0.77
+      },
+      {
+        "source": "Company21",
+        "target": "Keyword27",
+        "weight": 0.57
+      },
+      {
+        "source": "Company22",
+        "target": "Keyword14",
+        "weight": 0.1
+      },
+      {
+        "source": "Company0",
+        "target": "Keyword2",
+        "weight": 0.42
+      },
+      {
+        "source": "Company24",
+        "target": "Keyword11",
+        "weight": 0.87
+      },
+      {
+        "source": "Company28",
+        "target": "Keyword16",
+        "weight": 0.45
+      },
+      {
+        "source": "Company14",
+        "target": "Keyword5",
+        "weight": 0.34
+      },
+      {
+        "source": "Company17",
+        "target": "Keyword26",
+        "weight": -0.71
+      },
+      {
+        "source": "Company24",
+        "target": "Keyword8",
+        "weight": 0.32
+      },
+      {
+        "source": "Company21",
+        "target": "Keyword7",
+        "weight": 0.79
+      },
+      {
+        "source": "Company28",
+        "target": "Keyword10",
+        "weight": -0.96
+      },
+      {
+        "source": "Company53",
+        "target": "Keyword9",
+        "weight": -0.94
+      },
+      {
+        "source": "Company52",
+        "target": "Keyword26",
+        "weight": -0.86
+      },
+      {
+        "source": "Company14",
+        "target": "Keyword1",
+        "weight": -0.35
+      },
+      {
+        "source": "Company32",
+        "target": "Keyword5",
+        "weight": 0.46
+      },
+      {
+        "source": "Company29",
+        "target": "Keyword5",
+        "weight": -0.6
+      },
+      {
+        "source": "Company46",
+        "target": "Keyword9",
+        "weight": 0.76
+      },
+      {
+        "source": "Company6",
+        "target": "Keyword5",
+        "weight": 0.83
+      },
+      {
+        "source": "Company42",
+        "target": "Keyword23",
+        "weight": -0.97
+      },
+      {
+        "source": "Company7",
+        "target": "Keyword29",
+        "weight": 0.06
+      },
+      {
+        "source": "Company12",
+        "target": "Keyword12",
+        "weight": -0.05
+      },
+      {
+        "source": "Company38",
+        "target": "Keyword9",
+        "weight": -0.15
+      },
+      {
+        "source": "Company17",
+        "target": "Keyword4",
+        "weight": 0.41
+      },
+      {
+        "source": "Company3",
+        "target": "Keyword20",
+        "weight": -0.17
+      },
+      {
+        "source": "Company17",
+        "target": "Keyword11",
+        "weight": -0.55
+      },
+      {
+        "source": "Company33",
+        "target": "Keyword27",
+        "weight": 0.46
+      },
+      {
+        "source": "Company8",
+        "target": "Keyword19",
+        "weight": -0.58
+      },
+      {
+        "source": "Company17",
+        "target": "Keyword21",
+        "weight": -0.05
+      },
+      {
+        "source": "Company47",
+        "target": "Keyword27",
+        "weight": -0.44
+      },
+      {
+        "source": "Company48",
+        "target": "Keyword0",
+        "weight": 0.32
+      },
+      {
+        "source": "Company8",
+        "target": "Keyword19",
+        "weight": 0.9
+      },
+      {
+        "source": "Company31",
+        "target": "Keyword8",
+        "weight": -0.69
+      },
+      {
+        "source": "Company42",
+        "target": "Keyword20",
+        "weight": -0.37
+      },
+      {
+        "source": "Company8",
+        "target": "Keyword0",
+        "weight": -0.6
+      },
+      {
+        "source": "Company50",
+        "target": "Keyword10",
+        "weight": 0.98
+      },
+      {
+        "source": "Company3",
+        "target": "Keyword10",
+        "weight": 0.45
+      },
+      {
+        "source": "Company27",
+        "target": "Keyword21",
+        "weight": -0.15
+      },
+      {
+        "source": "Company16",
+        "target": "Keyword9",
+        "weight": 0.53
+      },
+      {
+        "source": "Company32",
+        "target": "Keyword11",
+        "weight": 0.57
+      },
+      {
+        "source": "Company1",
+        "target": "Keyword19",
+        "weight": -0.39
+      },
+      {
+        "source": "Company6",
+        "target": "Keyword19",
+        "weight": 0.63
+      },
+      {
+        "source": "Company35",
+        "target": "Keyword25",
+        "weight": -0.52
+      },
+      {
+        "source": "Company53",
+        "target": "Keyword19",
+        "weight": -0.76
+      },
+      {
+        "source": "Company20",
+        "target": "Keyword0",
+        "weight": 0.42
+      },
+      {
+        "source": "Company0",
+        "target": "Keyword23",
+        "weight": 0.66
+      },
+      {
+        "source": "Company46",
+        "target": "Keyword2",
+        "weight": 0.86
+      },
+      {
+        "source": "Company40",
+        "target": "Keyword6",
+        "weight": 0.52
+      },
+      {
+        "source": "Company34",
+        "target": "Keyword14",
+        "weight": -0.05
+      },
+      {
+        "source": "Company40",
+        "target": "Keyword26",
+        "weight": -0.82
+      },
+      {
+        "source": "Company6",
+        "target": "Keyword21",
+        "weight": -0.14
+      },
+      {
+        "source": "Company39",
+        "target": "Keyword11",
+        "weight": 0.93
+      },
+      {
+        "source": "Company47",
+        "target": "Keyword11",
+        "weight": -0.01
+      },
+      {
+        "source": "Company26",
+        "target": "Keyword2",
+        "weight": -0.44
+      },
+      {
+        "source": "Company24",
+        "target": "Keyword14",
+        "weight": -0.59
+      },
+      {
+        "source": "Company10",
+        "target": "Keyword8",
+        "weight": -0.02
+      },
+      {
+        "source": "Company26",
+        "target": "Keyword19",
+        "weight": 0.23
+      },
+      {
+        "source": "Company36",
+        "target": "Keyword13",
+        "weight": 0.17
+      },
+      {
+        "source": "Company2",
+        "target": "Keyword0",
+        "weight": 0.04
+      },
+      {
+        "source": "Company29",
+        "target": "Keyword22",
+        "weight": 0.14
+      },
+      {
+        "source": "Company19",
+        "target": "Keyword4",
+        "weight": 0.21
+      },
+      {
+        "source": "Company44",
+        "target": "Keyword27",
+        "weight": -0.64
+      },
+      {
+        "source": "Company34",
+        "target": "Keyword13",
+        "weight": 0.66
+      },
+      {
+        "source": "Company9",
+        "target": "Keyword13",
+        "weight": 0.26
+      },
+      {
+        "source": "Company15",
+        "target": "Keyword29",
+        "weight": -0.37
+      },
+      {
+        "source": "Company6",
+        "target": "Keyword21",
+        "weight": -0.15
+      },
+      {
+        "source": "Company16",
+        "target": "Keyword16",
+        "weight": -0.99
+      },
+      {
+        "source": "Company21",
+        "target": "Keyword29",
+        "weight": 0.15
+      },
+      {
+        "source": "Company47",
+        "target": "Keyword29",
+        "weight": -0.72
+      },
+      {
+        "source": "Company53",
+        "target": "Keyword12",
+        "weight": 0.77
+      },
+      {
+        "source": "Company5",
+        "target": "Keyword27",
+        "weight": 0.11
+      },
+      {
+        "source": "Company10",
+        "target": "Keyword0",
+        "weight": 0.01
+      },
+      {
+        "source": "Company19",
+        "target": "Keyword20",
+        "weight": -0.77
+      },
+      {
+        "source": "Company30",
+        "target": "Keyword27",
+        "weight": 0.13
+      },
+      {
+        "source": "Company33",
+        "target": "Keyword5",
+        "weight": 0.86
+      },
+      {
+        "source": "Company38",
+        "target": "Keyword3",
+        "weight": 0.48
+      },
+      {
+        "source": "Company36",
+        "target": "Keyword16",
+        "weight": -0.24
+      },
+      {
+        "source": "Company39",
+        "target": "Keyword16",
+        "weight": -0.37
+      },
+      {
+        "source": "Company1",
+        "target": "Keyword6",
+        "weight": -0.53
+      },
+      {
+        "source": "Company43",
+        "target": "Keyword11",
+        "weight": -0.92
+      },
+      {
+        "source": "Company54",
+        "target": "Keyword8",
+        "weight": -0.56
+      },
+      {
+        "source": "Company19",
+        "target": "Keyword18",
+        "weight": 0.33
+      },
+      {
+        "source": "Company3",
+        "target": "Keyword17",
+        "weight": 0.58
+      },
+      {
+        "source": "Company12",
+        "target": "Keyword14",
+        "weight": 0.43
+      },
+      {
+        "source": "Company1",
+        "target": "Keyword19",
+        "weight": -0.46
+      },
+      {
+        "source": "Company52",
+        "target": "Keyword16",
+        "weight": 0.12
+      },
+      {
+        "source": "Company11",
+        "target": "Keyword28",
+        "weight": -0.94
+      },
+      {
+        "source": "Company25",
+        "target": "Keyword27",
+        "weight": 0.37
+      }
+    ]
+  }
