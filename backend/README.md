@@ -11,6 +11,14 @@ uv venv --python 3.12
 uv sync
 ```
 
+## How to setup
+
+```bash
+scrapy startproject tg_crawler 
+brew install --build-from-source alembic
+alembic init tg_crawler/alembic
+```
+
 ## How to run
 
 ```bash
