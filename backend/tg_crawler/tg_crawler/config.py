@@ -32,7 +32,7 @@ class CrawlerSettings(BaseSettings):
                 path=self.POSTGRES_DB,
             )
             return str(url)
-        return f"sqlite:///{self.SQLITE_DB_FILE}"
+        return f"sqlite://../{self.SQLITE_DB_FILE}"
     
     def __post_init__(self):
         def display_all_fields(self):

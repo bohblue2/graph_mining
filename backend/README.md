@@ -22,5 +22,5 @@ alembic init tg_crawler/alembic
 ## How to run
 
 ```bash
-uvicorn main:app --reload
+uvicorn tg_backend.tg_backend.main:app --reload
 ```
