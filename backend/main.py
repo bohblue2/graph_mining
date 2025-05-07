@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from typing import List
-from graph_mining.entity import Node, Company, Keyword, Edge
+from tg_api.entity import Node, Company, Keyword, Edge
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
