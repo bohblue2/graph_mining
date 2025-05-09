@@ -24,5 +24,7 @@ alembic init tg_crawler/alembic
 ```bash
 cd backend   
 source .venv/bin/activate
-uvicorn tg_backend.tg_backend.main:app --reload
+cd tg_backend
+PYTHONPATH=$(pwd)
+uvicorn tg_backend.main:app --reload
 ```

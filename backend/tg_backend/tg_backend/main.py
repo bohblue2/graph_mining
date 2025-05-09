@@ -25,7 +25,7 @@ async def root():
 
 @app.get("/test")
 async def test():
-    with open("graph_example.json", "r") as f:
+    with open("./tg_backend/graph_example.json", "r") as f:
         return json.load(f)
 
 MOCK_COMPANIES: List[CompanyNode] = [
