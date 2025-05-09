@@ -14,9 +14,9 @@ uv sync
 ## How to setup
 
 ```bash
-scrapy startproject tg_crawler 
+scrapy startproject crawler 
 brew install --build-from-source alembic
-alembic init tg_crawler/alembic
+alembic init crawler/alembic
 ```
 
 ## How to run
@@ -24,7 +24,6 @@ alembic init tg_crawler/alembic
 ```bash
 cd backend   
 source .venv/bin/activate
-cd tg_backend
 PYTHONPATH=$(pwd)
-uvicorn tg_backend.main:app --reload
+uvicorn main:app --reload
 ```

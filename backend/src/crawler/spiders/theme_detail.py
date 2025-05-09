@@ -1,9 +1,9 @@
 from bs4 import BeautifulSoup
 import scrapy
 
-from tg_crawler.items import ThemeDetailItem
-from tg_crawler.database.models import NaverThemeListOrm
-from tg_crawler.database.session import SessionLocal
+from src.crawler.items import ThemeDetailItem
+from src.crawler.database.models import NaverThemeListOrm
+from src.crawler.database.session import SessionLocal
 
 
 def generate_board_full_url(board_url):

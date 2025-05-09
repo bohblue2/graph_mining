@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import json
 from typing import List
 import datetime
-from tg_backend.models import GraphResponse, QueryInfo, CompanyNode, KeywordNode, Edge # type: ignore
+from src.api.models import GraphResponse, QueryInfo, CompanyNode, KeywordNode, Edge # type: ignore
 
 app = FastAPI()
 

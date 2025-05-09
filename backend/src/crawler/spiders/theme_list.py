@@ -2,7 +2,7 @@ import os
 from bs4 import BeautifulSoup
 import scrapy
 
-from tg_crawler.items import ThemeListItem
+from src.crawler.items import ThemeListItem
 
 def generate_full_url(url: str) -> str:
     return f"https://finance.naver.com{url}"

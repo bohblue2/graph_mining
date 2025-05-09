@@ -7,8 +7,8 @@
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
 
-from tg_crawler.database.models import NaverThemeListOrm, NaverThemeDetailOrm
-from tg_crawler.database.session import SessionLocal
+from src.crawler.database.models import NaverThemeListOrm, NaverThemeDetailOrm
+from src.crawler.database.session import SessionLocal
 
 
 class TgCrawlerPipeline:
