@@ -6,32 +6,13 @@ from pydantic_settings import BaseSettings
 
 
 class XingSettings(BaseSettings):
-    DB_ENGINE: str = "sqlite"
-    
     XING_APP_KEY: str
     XING_APP_SECRET: str
-
-    POSTGRES_USER: str
-    POSTGRES_PASSWORD: str
-    POSTGRES_SERVER: str
-    POSTGRES_PORT: int
-    POSTGRES_DB: str
-
     SQLITE_DB_FILE: str = "./tg_crawler.db"
     
     @computed_field  # type: ignore[prop-decorator]
     @property
     def SQLALCHEMY_DATABASE_URL(self) -> str:
-        if self.DB_ENGINE.lower() == "postgres":
-            url = MultiHostUrl.build(
-                scheme="postgresql",
-                username=self.POSTGRES_USER,
-                password=self.POSTGRES_PASSWORD,
-                host=self.POSTGRES_SERVER,
-                port=self.POSTGRES_PORT,
-                path=self.POSTGRES_DB,
-            )
-            return str(url)
         return f"sqlite:///../{self.SQLITE_DB_FILE}"
 
     class Config:
