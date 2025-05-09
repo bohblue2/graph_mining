@@ -1,5 +1,5 @@
 from sqlalchemy import Column, DateTime, Integer, String, func
-from src.crawler.database.base import Base
+from src.database.base import Base
 
 
 class NaverThemeListOrm(Base):
