@@ -2,6 +2,8 @@
 scripts/
 backend/.env.dev.xing
 backend/.env.stage.xing
+backend/.env.dev.crawler
+backend/.env.stage.crawler
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

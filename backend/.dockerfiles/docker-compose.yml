@@ -1,0 +1,21 @@
+
+version: '3.5'
+
+services:
+  postgres:
+    container_name: tg-postgres-standalone
+    image: pgvector/pgvector:pg17
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: theme_guide
+    volumes:
+      - ${DOCKER_VOLUME_DIRECTORY:-.}/volumes/postgres:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+  
+
+networks:
+  default:
+    name: theme_guide_network
