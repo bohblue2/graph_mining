@@ -32,7 +32,7 @@ class NaverNewsArticleContents(scrapy.Spider):
     name = os.path.basename(__file__).replace('.py', '')
     allowed_domains = ["naver.com"]
     custom_settings = dict( 
-        ITEM_PIPELINES = {"mm_crawler.pipelines.FinanceNewsContentPipeline": 1},
+        ITEM_PIPELINES = {"src.crawler.pipelines.FinanceNewsContentPipeline": 1},
         DOWNLOADER_MIDDLEWARES={
             "scrapy.downloadermiddlewares.useragent.UserAgentMiddleware": None,
             "scrapy.downloadermiddlewares.retry.RetryMiddleware": None,

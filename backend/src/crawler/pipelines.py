@@ -88,6 +88,7 @@ class FinanceNewsListPipeline:
         )
         self.sess.add(article)
         self.sess.commit()
+        print(f"Added article: {item['title']}")
         return item
 
 class FinanceNewsContentPipeline:

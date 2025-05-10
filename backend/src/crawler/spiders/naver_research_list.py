@@ -18,7 +18,7 @@ DEFAULT_END_PAGE: int = 1000
 class NaverResearchBase(scrapy.Spider):
     allowed_domains = ['naver.com']
     custom_settings =dict(
-        ITEM_PIPELINES = {"mm_crawler.pipelines.ResearchMarketinfoListPipeline": 1}
+        ITEM_PIPELINES = {"src.crawler.pipelines.ResearchMarketinfoListPipeline": 1}
     )
 
     wait_time = DEFAULT_WAIT_TIME

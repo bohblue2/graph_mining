@@ -36,7 +36,7 @@ def extract_ids(url: str) -> Optional[Dict[str, str]]:
 class BaseNaverNewsSpider(scrapy.Spider, abc.ABC):
     allowed_domains = ['naver.com']
     custom_settings = {
-        "ITEM_PIPELINES": {"mm_crawler.pipelines.FinanceNewsListPipeline": 1},
+        "ITEM_PIPELINES": {"src.crawler.pipelines.FinanceNewsListPipeline": 1},
         "DOWNLOADER_MIDDLEWARES": {
             "scrapy.downloadermiddlewares.useragent.UserAgentMiddleware": None,
             "scrapy.downloadermiddlewares.retry.RetryMiddleware": None,

@@ -22,7 +22,7 @@ class CrawlerSettings(BaseSettings):
     @computed_field  # type: ignore[prop-decorator]
     @property
     def SQLALCHEMY_DATABASE_URL(self) -> str:
-        if self.DB_ENGINE.lower() == "postgres":
+        if self.DB_ENGINE.lower() == "postgresql":
             url = MultiHostUrl.build(
                 scheme="postgresql",
                 username=self.POSTGRES_USER,

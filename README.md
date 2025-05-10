@@ -2,6 +2,15 @@
 
 ## Crawling
 
+### How to run
+
+```bash
+cd backend
+docker-compose -f .dockerfiles/docker-compose.yml up -d
+```
+
+
+
 ### 1. 뉴스 기반 회사 - 키워드 크롤링
 
 뉴스 기반으로 회사와 키워드간의 관계를 파악하여 키워드 그래프를 구축합니다. 이 과정에서 gpt-4o-mini 모델을 사용할 예정입니다.
